@@ -1,0 +1,11 @@
+.franja{
+    position: absolute;
+    width: 100%;
+    background-color:#ba7642;
+    bottom: -6%;
+    padding: 20px 0;
+}
+.carrusel {
+    max-height: 540px;
+  }
+ 

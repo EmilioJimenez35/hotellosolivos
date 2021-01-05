@@ -1,0 +1,44 @@
+.social-bar{
+    position: fixed;
+    right: 0; /*posiciona a la derecha la barra*/
+    top: 35%; /*casi centra la posicion*/
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100; /*permite que se ubique encima de los elementos en la pagina*/
+}
+.icon{
+color: white;
+text-decoration: none;
+padding: .7rem;
+display: flex;
+transition: all .5s; /*animamos la propiedad*/
+}
+.icon-facebook{
+    background: #2E406E;
+}
+.icon-whatsapp{
+    background: #4AC959;
+}
+.icon-instagram{
+    background: #e00d81;
+
+}
+.icon:first-child{
+    border-radius: 1rem 0 0 0;
+}
+.icon:last-child{
+    border-radius: 0 0 0 1rem;/*para que si se agregan mas redes sociales no haga falta marcarles un radio, ya lo tendran por defecto*/
+}
+.icon:hover {
+    padding-right: 3rem;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 0 .5rem rgba(0,0,0,0.42);
+}
+
+  
+  
+
+  
+  
